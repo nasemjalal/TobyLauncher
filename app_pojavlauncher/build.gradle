@@ -99,11 +99,6 @@ android {
         versionName getVersionName()
         multiDexEnabled false //important
         resValue 'string', 'curseforge_api_key', getCFApiKey()
-        externalNativeBuild {
-        cmake {
-            arguments "-DCMAKE_C_COMPILER=/data/data/com.termux/files/usr/bin/clang", "-DCMAKE_CXX_COMPILER=/data/data/com.termux/files/usr/bin/clang++"
-        }
-    }
  }
 
     flavorDimensions  = ["runtime"]
