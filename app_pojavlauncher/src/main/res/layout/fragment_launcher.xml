@@ -126,12 +126,12 @@
 
 	<com.kdt.mcgui.MineButton
         android:id="@+id/play_button"
-        android:layout_width="@dimen/_160sdp"
-        android:layout_height="@dimen/_90sdp"
-        android:layout_marginEnd="@dimen/_24sdp"
-        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_120sdp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:layout_marginBottom="@dimen/_60sdp"
         android:textAllCaps="true"
-        android:textSize="18sp"
+        android:textSize="24sp"
         android:text="@string/main_play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
